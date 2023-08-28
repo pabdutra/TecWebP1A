@@ -172,9 +172,8 @@ body {
   padding: 0.7%;
   position: relative;
   width: 13%;
-  height: 7rem;
+  height: 7.5rem;
   margin-top: 2rem;
-
 }
 
 .card-title{
@@ -193,7 +192,7 @@ body {
 p{
   font-family: 'Permanent Marker', cursive;
   font-size: medium;
-  color: #2c2c2c;
+  color: #4c4c4c;
 }
 
 .card-color-1{
