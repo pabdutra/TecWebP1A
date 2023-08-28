@@ -1,4 +1,3 @@
-# TecWebP1A
-Tecnologias WEB - Projeto 1: Parte A
+# Tecnologias WEB - Desafio CSS
 
 Por: Fernando Mattos e Pedro Dutra
