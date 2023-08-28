@@ -78,3 +78,184 @@ body {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 } */
+
+
+.appbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7d736;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  height: 4%;
+  width: 4%;
+  padding: 0.5%;
+}
+
+.subtile{
+  margin-bottom: 1%;
+
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+
+.form-card{
+  display:flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-bottom: 2%;
+  width: 25%;
+  padding: 0.5%;
+  border-radius: 5px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.6);
+}
+
+.form-card-title{
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.autoresize{
+  border: none;
+  font-size: small;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  background-color: #f7d736;
+
+  transition: background-color 0.3s;
+  font-size: small;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.card{
+  border-radius: 5px;
+  box-shadow: 0 5px 9px rgba(0, 0.6, 0.6, 0.6);
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.7%;
+  position: relative;
+  width: 13%;
+  height: 7rem;
+  margin-top: 2rem;
+
+}
+
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.card-content{
+  align-self: center;
+  margin: 5%;
+  margin-bottom: 20%;
+}
+
+p{
+  font-family: 'Permanent Marker', cursive;
+  font-size: medium;
+  color: #2c2c2c;
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+  background-color: #fae890; 
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(-4deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(-5deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-11 {
+  transform: rotate(-6deg);
+}
